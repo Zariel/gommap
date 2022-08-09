@@ -1,5 +1,5 @@
-// +build linux freebsd
-// +build 386
+//go:build unix && 386
+// +build unix,386
 
 package gommap
 

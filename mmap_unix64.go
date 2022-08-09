@@ -1,4 +1,5 @@
-// +build linux freebsd
+//go:build unix && (amd64 || arm64)
+// +build unix
 // +build amd64 arm64
 
 package gommap
